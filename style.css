@@ -1,0 +1,92 @@
+ul{
+    color: white;
+    word-spacing: 20px;
+    font-size: 270%;
+    font-family: Helvetica,Arial,sans-serif;
+    list-style-type: none;
+}
+html{
+    position: relative;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#212c39), color-stop(50%, #121e3d), to(#000));
+    background-image: linear-gradient(#212c39, #121e3d 50%, #000);
+    background-repeat: no-repeat;
+    
+}
+article{
+    border: #169b45 3px inset;
+    background-repeat: inherit;
+    padding: 20px;
+    margin: 20px;
+    background-color: #a0c3d2;
+    font-size: 155%;
+    font-family: Helvetica,Arial,sans-serif;
+    color: black;
+}
+#fotocorona{
+    border: #169b45 2px inset;
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+#Corona{
+    text-overflow: clip;
+    color: black;
+    text-indent: 0%;
+}
+#fotoitau{
+    border: inset 2px #169b45;
+    width: 30%;
+    float: left;
+}
+#fotoesportes{
+    width: 30%;
+    height: 30%;
+    border: inset 2px #169b45;
+    float: left;
+}
+#fotopopular{
+    width: 30%;
+    height: 30%;
+    border: inset 2px #169b45;
+    float: left;
+}
+#fotoedson{
+    width: 30%;
+    height: 30%;
+    border: inset 2px #169b45;
+    float: left;
+}
+footer{
+    background-color: white;
+}
+#agoravai{
+    height: 30%;
+    width: 30%;
+    float: left;
+    border: inset 2px #169b45;
+}
+ul:hover{
+    text-shadow: 2px 3px 4px gray;
+}
+ul:active{
+    text-shadow: #000 2px 3px;
+}
+ins{
+    border: black 2px solid;
+    transition: font-size 2s;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: legal;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes legal {
+    0% { color: orange; }
+    25% { color: orangered; }
+    50% { color:  blueviolet}
+    75% { color:  green }
+    100% { color: rgb(255, 0, 140);}
+}
+#pedrada:hover{
+    transform: skewY(1deg);
+    font-size: 120%;
+}
